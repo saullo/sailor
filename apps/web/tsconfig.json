@@ -1,0 +1,9 @@
+{
+	"$schema": "https://www.schemastore.org/tsconfig",
+	"extends": ["@sailor/tsconfig/app"],
+	"compilerOptions": {
+		"jsx": "react-jsx",
+		"skipLibCheck": true,
+		"strictNullChecks": true
+	}
+}

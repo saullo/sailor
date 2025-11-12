@@ -3,7 +3,8 @@
 	"ui": "tui",
 	"tasks": {
 		"build": {
-			"dependsOn": ["^build"]
+			"dependsOn": ["^build"],
+			"outputs": [".output/**", ".tanstack/**", "dist/**"]
 		},
 		"start": {
 			"dependsOn": ["^start"]
