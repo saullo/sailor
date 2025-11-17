@@ -8,6 +8,12 @@
     "start": {
       "dependsOn": ["^start"]
     },
+    "format": {
+      "dependsOn": ["^format"]
+    },
+    "lint": {
+      "dependsOn": ["^lint"]
+    },
     "dev": {
       "persistent": true,
       "cache": false
