@@ -1,0 +1,10 @@
+{
+    "name": "@saullo/sailor",
+    "private": true,
+    "type": "module",
+    "packageManager": "bun@1.3.2",
+    "workspaces": [
+        "apps/*",
+        "packages/*"
+    ]
+}
