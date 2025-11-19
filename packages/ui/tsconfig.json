@@ -1,0 +1,10 @@
+{
+	"$schema": "https://www.schemastore.org/tsconfig",
+	"extends": ["@sailor/tsconfig/package"],
+	"compilerOptions": {
+		"baseUrl": ".",
+		"paths": {
+			"@sailor/ui/*": ["./src/*"]
+		}
+	}
+}
