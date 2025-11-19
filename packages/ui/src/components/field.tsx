@@ -1,9 +1,9 @@
 "use client";
 
-import { Label } from "@seilor/ui/components/label";
-import { Separator } from "@seilor/ui/components/separator";
+import { Label } from "@sailor/ui/components/label";
+import { Separator } from "@sailor/ui/components/separator";
 
-import { cn } from "@seilor/ui/lib/utils";
+import { cn } from "@sailor/ui/lib/utils";
 import { cva, type VariantProps } from "class-variance-authority";
 import { useMemo } from "react";
 

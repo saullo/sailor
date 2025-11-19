@@ -1,7 +1,7 @@
 "use client";
 
 import * as PopoverPrimitive from "@radix-ui/react-popover";
-import { cn } from "@seilor/ui/lib/utils";
+import { cn } from "@sailor/ui/lib/utils";
 import type * as React from "react";
 
 function Popover({

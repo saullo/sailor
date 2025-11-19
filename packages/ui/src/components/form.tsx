@@ -2,8 +2,8 @@
 
 import type * as LabelPrimitive from "@radix-ui/react-label";
 import { Slot } from "@radix-ui/react-slot";
-import { Label } from "@seilor/ui/components/label";
-import { cn } from "@seilor/ui/lib/utils";
+import { Label } from "@sailor/ui/components/label";
+import { cn } from "@sailor/ui/lib/utils";
 import * as React from "react";
 import {
 	Controller,

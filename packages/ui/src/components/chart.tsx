@@ -1,6 +1,6 @@
 "use client";
 
-import { cn } from "@seilor/ui/lib/utils";
+import { cn } from "@sailor/ui/lib/utils";
 import * as React from "react";
 import * as RechartsPrimitive from "recharts";
 

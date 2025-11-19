@@ -1,5 +1,5 @@
-import { type Button, buttonVariants } from "@seilor/ui/components/button";
-import { cn } from "@seilor/ui/lib/utils";
+import { type Button, buttonVariants } from "@sailor/ui/components/button";
+import { cn } from "@sailor/ui/lib/utils";
 import {
 	ChevronLeftIcon,
 	ChevronRightIcon,

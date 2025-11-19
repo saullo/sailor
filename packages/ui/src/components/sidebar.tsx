@@ -1,25 +1,25 @@
 "use client";
 
 import { Slot } from "@radix-ui/react-slot";
-import { Button } from "@seilor/ui/components/button";
-import { Input } from "@seilor/ui/components/input";
-import { Separator } from "@seilor/ui/components/separator";
+import { Button } from "@sailor/ui/components/button";
+import { Input } from "@sailor/ui/components/input";
+import { Separator } from "@sailor/ui/components/separator";
 import {
 	Sheet,
 	SheetContent,
 	SheetDescription,
 	SheetHeader,
 	SheetTitle,
-} from "@seilor/ui/components/sheet";
-import { Skeleton } from "@seilor/ui/components/skeleton";
+} from "@sailor/ui/components/sheet";
+import { Skeleton } from "@sailor/ui/components/skeleton";
 import {
 	Tooltip,
 	TooltipContent,
 	TooltipProvider,
 	TooltipTrigger,
-} from "@seilor/ui/components/tooltip";
-import { useIsMobile } from "@seilor/ui/hooks/use-mobile";
-import { cn } from "@seilor/ui/lib/utils";
+} from "@sailor/ui/components/tooltip";
+import { useIsMobile } from "@sailor/ui/hooks/use-mobile";
+import { cn } from "@sailor/ui/lib/utils";
 import { cva, type VariantProps } from "class-variance-authority";
 import { PanelLeftIcon } from "lucide-react";
 import * as React from "react";

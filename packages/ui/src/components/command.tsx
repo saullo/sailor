@@ -6,8 +6,8 @@ import {
 	DialogDescription,
 	DialogHeader,
 	DialogTitle,
-} from "@seilor/ui/components/dialog";
-import { cn } from "@seilor/ui/lib/utils";
+} from "@sailor/ui/components/dialog";
+import { cn } from "@sailor/ui/lib/utils";
 import { Command as CommandPrimitive } from "cmdk";
 import { SearchIcon } from "lucide-react";
 import type * as React from "react";

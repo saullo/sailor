@@ -1,7 +1,7 @@
 "use client";
 
-import { Button } from "@seilor/ui/components/button";
-import { cn } from "@seilor/ui/lib/utils";
+import { Button } from "@sailor/ui/components/button";
+import { cn } from "@sailor/ui/lib/utils";
 import useEmblaCarousel, {
 	type UseEmblaCarouselType,
 } from "embla-carousel-react";

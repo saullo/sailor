@@ -1,7 +1,7 @@
 "use client";
 
-import { Button, buttonVariants } from "@seilor/ui/components/button";
-import { cn } from "@seilor/ui/lib/utils";
+import { Button, buttonVariants } from "@sailor/ui/components/button";
+import { cn } from "@sailor/ui/lib/utils";
 import {
 	ChevronDownIcon,
 	ChevronLeftIcon,

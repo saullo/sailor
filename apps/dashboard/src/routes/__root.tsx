@@ -1,5 +1,6 @@
 /// <reference types="vite/client" />
 
+import globalsCss from "@sailor/ui/globals.css?url";
 import { TanStackDevtools } from "@tanstack/react-devtools";
 import type { QueryClient } from "@tanstack/react-query";
 import {
@@ -25,6 +26,12 @@ export const Route = createRootRouteWithContext<{
 			},
 			{
 				title: "Sailor",
+			},
+		],
+		links: [
+			{
+				rel: "stylesheet",
+				href: globalsCss,
 			},
 		],
 	}),
@@ -56,7 +63,7 @@ function RootDocument({ children }: Readonly<{ children: ReactNode }>) {
 			<head>
 				<HeadContent />
 			</head>
-			<body>
+			<body className="font-sans antialiased dark">
 				{children}
 				<Scripts />
 			</body>

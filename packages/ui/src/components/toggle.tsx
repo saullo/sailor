@@ -1,7 +1,7 @@
 "use client";
 
 import * as TogglePrimitive from "@radix-ui/react-toggle";
-import { cn } from "@seilor/ui/lib/utils";
+import { cn } from "@sailor/ui/lib/utils";
 import { cva, type VariantProps } from "class-variance-authority";
 import type * as React from "react";
 
