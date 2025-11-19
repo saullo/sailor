@@ -1,22 +1,26 @@
 {
-  "$schema": "https://turborepo.com/schema.json",
-  "ui": "tui",
-  "tasks": {
-    "build": {
-      "dependsOn": ["^build"]
-    },
-    "start": {
-      "dependsOn": ["^start"]
-    },
-    "format": {
-      "dependsOn": ["^format"]
-    },
-    "lint": {
-      "dependsOn": ["^lint"]
-    },
-    "dev": {
-      "persistent": true,
-      "cache": false
-    }
-  }
+	"$schema": "https://turborepo.com/schema.json",
+	"ui": "tui",
+	"tasks": {
+		"build": {
+			"dependsOn": ["^build"],
+			"outputs": [".output/**", ".tanstack/**"]
+		},
+		"start": {
+			"dependsOn": ["^start"]
+		},
+		"test": {
+			"dependsOn": ["^test"]
+		},
+		"format": {
+			"dependsOn": ["^format"]
+		},
+		"lint": {
+			"dependsOn": ["^lint"]
+		},
+		"dev": {
+			"persistent": true,
+			"cache": false
+		}
+	}
 }

@@ -1,0 +1,16 @@
+{
+	"$schema": "https://www.schemastore.org/tsconfig",
+	"extends": ["@sailor/tsconfig/app"],
+	"compilerOptions": {
+		"jsx": "react-jsx",
+		"moduleResolution": "bundler",
+		"module": "esnext",
+		"target": "esnext",
+		"skipLibCheck": true,
+		"strictNullChecks": true,
+		"baseUrl": ".",
+		"paths": {
+			"@/*": ["./src/*"]
+		}
+	}
+}
